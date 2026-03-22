@@ -1,0 +1,17 @@
+# Smithery configuration for MGO MCP Server
+# https://smithery.ai/docs/build/project-config/smithery-yaml
+
+runtime: "typescript"
+
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+    required: []
+  commandFunction: |-
+    (config) => ({
+      command: "node",
+      args: ["dist/index.js"],
+      env: {}
+    })
