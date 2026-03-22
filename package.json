@@ -1,0 +1,24 @@
+{
+  "name": "mgo-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for MGO - Multi-chain Gas Optimizer. Compare gas prices across 9 EVM chains.",
+  "main": "dist/index.js",
+  "bin": {
+    "mgo-mcp-server": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0"
+  },
+  "keywords": ["mcp", "gas", "evm", "x402", "blockchain", "defi"],
+  "license": "MIT"
+}
