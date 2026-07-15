@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.dlrjsdl200-byte/mgo-mcp-server",
   "title": "MGO — Multi-chain Gas Optimizer",
-  "description": "Find the cheapest EVM chain before you transact. Compares live gas across up to 9 EVM chains and returns the cheapest chain with savings %. Pay-per-call via x402 (USDC on Base), no API key.",
+  "description": "Find the cheapest EVM chain across up to 9 networks with savings %. Pay-per-call via x402 on Base.",
   "repository": {
     "url": "https://github.com/dlrjsdl200-byte/mgo-mcp-server",
     "source": "github"
@@ -12,6 +12,6 @@
     { "type": "streamable-http", "url": "https://x402-gas-api.vercel.app/mcp" }
   ],
   "packages": [
-    { "registryType": "npm", "identifier": "chain-ops-mgo", "version": "1.1.0", "transport": { "type": "stdio" } }
+    { "registryType": "npm", "identifier": "chain-ops-mgo", "version": "1.1.1", "transport": { "type": "stdio" } }
   ]
 }

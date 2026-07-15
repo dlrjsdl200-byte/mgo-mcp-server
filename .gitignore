@@ -1,0 +1,18 @@
+# mcp-publisher CLI (downloaded tooling — do not commit)
+mcp-publisher
+mcp-publisher.exe
+mcp-publisher.tar.gz
+
+# deps / build
+node_modules/
+dist/
+build/
+
+# env / secrets
+.env
+.env.*
+!.env.example
+
+# logs / os
+*.log
+.DS_Store
